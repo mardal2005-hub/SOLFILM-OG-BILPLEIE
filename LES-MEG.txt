@@ -1,0 +1,37 @@
+SOLFILM OG BILPLEIE KAMINSKIJ – DEMO-NETTSIDE
+=============================================
+
+Åpne siden:
+- Dobbeltklikk "index.html" (fungerer uten internett; med internett lastes
+  skrifttypen Sora).
+
+Designretning:
+Premium bil-/detailing-stil. Mørk palett – sort, grafitt, hvit og en
+elektrisk cyan-aksent. Stort, glossy og sportslig. Helt eget uttrykk,
+uavhengig av andre demoer.
+
+Om bildene:
+Nettverket tillot ikke nedlasting av ekte bilfoto, så bildeflatene er
+premium bil-texturer (glossy billakk, tonet glass, vannperler, karbon)
+laget som SVG. De er merket som demo og byttes enkelt ut med ekte foto:
+- Hero: stort bilde av mørk bil med detailing/solfilm
+- Tjenester: ett foto per tjeneste
+- Før/etter: ekte før- og etterbilder (nå merket "Demo – før/etter")
+- Galleri: 10–20 ekte bilder legges rett inn i rutenettet
+- Om oss: portrett av Andrej
+
+Om innholdet:
+Kun kjente fakta er brukt (Haugesund, Eikjehammervegen 16, ENK, etablert
+2024, bransje, innehaver Andrej Kaminskij). INGEN oppdiktede tjenester,
+priser, kundeomtaler, sertifiseringer eller telefonnummer. Der info mangler
+er det brukt tydelige plassholdere.
+
+Kontaktskjema:
+Sender ingen data i demoen. Klart til å kobles til e-post/Formspree før
+lansering (se kommentar i index.html).
+
+Filer:
+- index.html ........ forsiden
+- css/styles.css .... designsystemet
+- js/main.js ........ meny, animasjoner, før/etter-slider, skjema
+- assets/img/ ....... bil-texturer, favicon, delingsbilde (SVG)
