@@ -137,6 +137,16 @@ h1,h2,h3,h4 { font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; }
 .hero-scroll i::after { content:""; position:absolute; inset:0; background: var(--accent); transform: translateX(-100%); animation: sweep 2.4s var(--ease) infinite; }
 @keyframes sweep { 0%{transform:translateX(-100%)} 55%{transform:translateX(0)} 100%{transform:translateX(100%)} }
 
+/* ---------- Demo-merking av bilder ---------- */
+.demo-badge {
+  position: absolute; top: 12px; right: 12px; z-index: 3;
+  font-size: .56rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+  padding: 5px 9px; border-radius: 4px; background: rgba(8,8,10,0.62);
+  border: 1px solid var(--line); color: var(--muted); backdrop-filter: blur(4px);
+  pointer-events: none;
+}
+.hero-badge { position: absolute; right: var(--gutter); bottom: 24px; z-index: 2; font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted-2); }
+
 /* ---------- Section rhythm ---------- */
 .section { padding: clamp(70px, 11vw, 150px) 0; }
 .section-head { max-width: 640px; margin: 0 auto clamp(44px, 6vw, 72px); text-align: center; }
